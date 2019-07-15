@@ -15,32 +15,182 @@ body {
  background: #2D2241;
 }
 
+
 .board{
-
-
+  width: 1240px;
+  height:1240px;
+  margin: 32px auto;
+  width: 100%;
+  max-width: 800px;
+  
 
 
   &__inner{
   margin: 64px auto;
   width: 100%;
-  max-width: 1200px;
+  max-width: 600px;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+  grid-template-columns: 20px 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 20px ;
+  grid-template-rows:20px 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 20px;
 }
 }
 
 .a8, .c8, .e8, .g8, .b7, .d7, .f7, .h7, .a6, .c6, .e6, .g6, .b5, .d5, .f5, .h5, .a4, .c4, .e4, .g4, .b3, .d3, .f3, .h3, .a2, .c2, .e2, .g2, .b1, .d1, .f1, .h1  {
-width: 150px;
-height:150px;
+width: 75px;
+height:75px;
 background:burlywood;
 
 }
 
 .b8, .d8, .f8, .h8, .a7, .c7, .e7, .g7, .b6, .d6, .f6, .h6, .a5, .c5, .e5, .g5, .b4, .d4, .f4, .h4, .a3, .c3, .e3, .g3, .b2, .d2, .f2, .h2, .a1, .c1, .e1, .g1{
-  width: 150px;
-  height:150px;
+  width: 75px;
+  height:75px;
   background:brown;
+}
+
+.blank{
+
+  &__a{
+
+    background: rgb(49, 13, 13);
+    color:white;
+    text-align: center;
+  }
+
+  &__b{
+
+    background: rgb(49, 13, 13);
+    color:white;
+    text-align: center;
+  }
+
+  &__c{
+
+    background: rgb(49, 13, 13);
+    color:white;
+    text-align: center;
+  }
+
+  &__d{
+
+    background: rgb(49, 13, 13);
+    color:white;
+    text-align: center;
+  }
+
+  &__e{
+
+    background: rgb(49, 13, 13);
+    color:white;
+    text-align: center;
+  }
+
+  &__f{
+
+    background: rgb(49, 13, 13);
+    color:white;
+    text-align: center;
+  }
+  &__g{
+
+    background: rgb(49, 13, 13);
+    color:white;
+    text-align: center;
+  }
+
+  &__h{
+
+    background: rgb(49, 13, 13);
+    color:white;
+    text-align: center;
+  }
+
+  &__1{
+
+    
+    background: rgb(49, 13, 13);
+    color:white;
+    text-align: center;
+    
+  }
+
+  &__2{
+
+    background: rgb(49, 13, 13);
+    color:white;
+    text-align: center;
+  }
+
+  &__3{
+
+    background: rgb(49, 13, 13);
+    color:white;
+    text-align: center;
+  }
+
+  &__4{
+
+    background: rgb(49, 13, 13);
+    color:white;
+    text-align: center;
+  }
+
+  &__5{
+
+    background: rgb(49, 13, 13);
+    color:white;
+    text-align:center; 
+  }
+
+  &__6{
+
+    background: rgb(49, 13, 13);
+    color:white;
+    text-align: center;
+  }
+  &__7{
+
+    background: rgb(49, 13, 13);
+    color:white;
+    text-align: center;
+  }
+
+  &__8{
+
+    background: rgb(49, 13, 13);
+    color:white;
+    text-align: center;
+  }
+
+  &__paragraph{
+
+    margin-top:27px;
+    
+  }
+  
+}
+
+
+
+
+.blank0{
+
+  background: rgb(49, 13, 13);
+}
+
+.blank1{
+
+  background: rgb(49, 13, 13);
+}
+
+.blank2{
+
+  background: rgb(49, 13, 13);
+}
+
+.blank3{
+
+  background: rgb(49, 13, 13);
 }
 
 .position{
@@ -50,26 +200,26 @@ background:burlywood;
 
 .imgWhitePawn, .imgBlackPawn{
   position: absolute;
-  margin-left: 50px;
-  margin-top: 30px;
+  margin-left: 25px;
+  margin-top: 15px;
 }
 
 .imgWhiteRook, .imgWhiteHorse,.imgBlackRook, .imgBlackHorse {
   position: absolute;
-  margin-left: 50px;
-  margin-top: 20px;
+  margin-left: 25px;
+  margin-top: 10px;
 }
 
 .imgWhiteBishop, .imgBlackBishop{
 
   position: absolute;
-  margin-left: 50px;
-  margin-top: 10px;
+  margin-left: 25px;
+  margin-top: 5px;
 }
 
 .imgWhiteQueen, .imgWhiteKing, .imgBlackQueen, .imgBlackKing{
 
   position: absolute;
-  margin-left: 50px;
+  margin-left: 25px;
   
 }
