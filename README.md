@@ -1,9 +1,8 @@
 # wtf-gulp-starter
 
-`npm install -g gulp-cli`
+![Homepage screenshot](Github/README.JPG)
 
-`npm install`
+Its a small project that I am making for Me and my friend. Work in progress.
 
-`gulp`
+To check out the project click here ->
 
-To publish your page using github pages use `npm run deploy`
